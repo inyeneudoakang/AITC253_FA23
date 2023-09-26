@@ -1,4 +1,4 @@
-/* Define CSS styles for the Contact Us page */
+
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
@@ -14,7 +14,7 @@ p {
     margin: 10px 0;
 }
 
-/* Styles for form fields */
+
 label {
     font-weight: bold;
 }
@@ -30,7 +30,7 @@ textarea {
     border-radius: 4px;
 }
 
-/* Styles for the submit button */
+
 input[type="submit"] {
     background-color: #007bff;
     color: #fff;
@@ -40,7 +40,7 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-/* Styles for the additional information fieldset */
+
 .additional {
     border: 1px solid #ccc;
     padding: 10px;
