@@ -1,0 +1,55 @@
+<!-- inline_css.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline CSS Styling</title>
+</head>
+<body>
+    <h1 style="color: blue;">Contact Us</h1>
+    <p style="font-size: 16px;">Please fill out the form below to get in touch with us.</p>
+    
+    <form action="submit.php" method="POST">
+        <!-- Contact Information -->
+        <fieldset>
+            <legend style="color: green;">Contact Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required style="border: 1px solid green;">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required style="border: 1px solid blue;">
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" style="border: 1px solid purple;">
+        </fieldset>
+        
+        <!-- Message -->
+        <fieldset>
+            <legend style="font-style: italic;">Message</legend>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" style="border: 1px solid red;">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required style="border: 1px solid orange;"></textarea>
+        </fieldset>
+        
+        <!-- Additional Information -->
+        <fieldset class="additional">
+            <legend>Additional Information</legend>
+            <label for="newsletter">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" style="margin-right: 5px;">
+            
+            <label for="priority">Priority:</label>
+            <select id="priority" name="priority" style="border: 1px solid pink;">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+        </fieldset>
+        
+        <input type="submit" value="Submit" style="background-color: #4CAF50; color: white; border: none; padding: 10px 15px; font-size: 16px; cursor: pointer;">
+    </form>
+</body>
+</html>
